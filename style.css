@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_wrapper {
+    padding-left: calc(10.8vw - 17.6px);
+    padding-right:calc(10.8vw - 17.6px);
+    background-image: url(./img/html_css_js\ 1\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: left calc(59vw + 69.7px) top calc(4.8vw + 58.7px);
+    background-size: calc(23.9vw + 89.4px);
+}   
+@media (max-width:500px) {
+    .main_wrapper {
+        padding-left: calc(10.8vw - 17.6px);
+        padding-right:calc(10.8vw - 17.6px);
+        background-image: url(./img/html_css_js\ 1\ \(2\).png);
+        background-repeat: no-repeat;
+        background-position: left calc(40vw + 69.7px) top calc(1.8vw + 58.7px);
+        background-size: calc(14.9vw + 89.4px);
+    }   
+}
+.logo {
+    margin-top: 37px;
+    width: calc(8.8vw + 181.8px);
+}
+.parent {
+    margin-top: calc(6.7vw + 4.3px);
+    display: flex;
+    flex-direction: row;
+    gap: calc(5.1vw + 10.9px);
+    flex-wrap: wrap;
+}
+h1 {
+
+    margin-top: calc(3.1vw + 36.3px);
+    font-family: 'Chava', sans-serif;                                            
+    font-size: calc(4.2vw + 26.2px);
+    line-height: 110%;
+}
+.main_wrapper p {
+
+    margin-top: calc(2.2vw + 11.7px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(1.1vw + 14.2px);
+    font-weight: 300;
+    line-height: 140%;
+
+}
+.buttons_block {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.buttons_block button {
+    background-color: #6E3ABA;
+    width: 328px;
+    height: 61px;
+    padding: 20px;
+    border-radius: 12px;
+    color:#FFFFFF;
+    border: none;
+}
+.buttons_block button:nth-child(2) {
+    background-color:transparent;
+    color:#6E3ABA;
+    border:1px solid #6E3ABA;
+}
+@media (max-width:500px) {
+    .main_wrapper p {
+        width: 328px;
+        height: 250px;
+    }
+}
+h2{
+    font-family: 'TT Hoves', sans-serif;
+    font-size:calc(2.7vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-right: 50px;
+}
+@media (max-width:500px) {
+    .emoji_wrapper h2 {
+        width: 328px;
+        height: 80px;
+
+
+    } 
+}
+.emoji_wrapper{
+    padding-left: calc(10.8vw - 17.6px);
+    padding-right: calc(10.8vw - 17.6px);
+}
+.emoji_blocks{
+    gap: 70px;
+    display: flex;
+    margin-top: 41px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.block{
+    margin-top: 15px;
+    width: 450px;
+
+}
+.block h3{
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
+    
+}
+.block p {
+    margin-top:calc(2.2vw + 11.7px); ;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(1.1vw + 14.2px);
+    font-weight: 300;
+    line-height: 140%;
+}
+.container{
+    margin-top: 30px;
+    background-color: #6E3ABA;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h4{
+    padding-top: 20px;
+    color: #FFFFFF;
+    
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(1.1vw + 14.2px);
+    font-weight: 700;
+    line-height: 61.26px;
+    letter-spacing: 0.03em;
+    text-align: center; 
+     
+}
+.time{
+    display: flex;
+    justify-content: center;
+    height: 219px;
+    padding-left: 50px;
+}
+.time h2{
+    font-family: 'Chava', sans-serif;
+    font-size: calc(12.5vw + 14.1px);
+    padding-top: 57px;
+}
+.time span {
+    font-size: calc(1.9vw + 2.9px);
+    font-family: 'TT Hoves', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+
+
+}
+.sale{
+    background-color: #FFFFFF;
+    color: #6E3ABA;
+    width: 328px;
+    height: 61px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 12px 12px 12px 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.speaker_wrapper{
+  flex-direction: column;
+  padding: 121px;
+  padding-left: calc(10.8vw - 17.6px);
+  padding-right: calc(10.8vw - 17.6px);
+}
+
+.main_speaker{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    width: 399px;
+    flex-wrap: wrap;
+}
+.info-speaker{
+    width: calc(43.9vw + 728.5px);
+    display: block;
+}
+
+.info-speaker h3{
+    font-family: 'TT Hoves',sans-serif;
+    width: calc(24.9vw + 247.7px);
+    height: calc(1.4vw + 39.6px);
+    font-size: calc(1.1vw + 33.8px);
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+}
+.info-speaker p{
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 27px;
+    line-height: 37.8px;
+}
+.grid-block{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+    
+}
+.grid-block div {
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+}
+.grid-block img {
+    width: 36px;
+    height: 36px;
+}
+.designer_wrapper{
+    padding: 121px;
+    padding-left: calc(10.8vw - 17.6px);
+    padding-right: calc(10.8vw - 17.6px);
+}
+.designer-blocks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 120px;
+}
+.designer-block{
+    width: 400px;
+    margin-top: 40px;
+}
+.designer-block h2 { 
+    font-family: 'TT Hoves',sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
+    margin-top: 50px;
+}
+.designer-block p {
+    font-family: 'TT Hoves',sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: left;
+    margin-top: 20px;
+}
+.program_cuarse{
+    padding: 121px;
+    padding-left: calc(10.8vw - 17.6px);
+    padding-right: calc(10.8vw - 17.6px);
+}
+.lessons p {
+    display: block;
+    margin-top: 48px;
+    font-family: 'TT Hoves', sans-serif;
+}
+.programer p{
+    font-size:calc(0.6vw + 13.9px) ; 
+}
+.program{
+    display: block;
+    background-color: #6E3ABA;
+    color: #FFFFFF;
+    height:  61px;
+    padding: 20px 0px 20px 0px;
+    margin-top: 34px;
+    border-radius: 12px 12px 12px 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.frame{
+    position: absolute;
+    width: calc(81.4vw + 22.6px);
+    height: calc(70.7vw + 550.4px);
+}
+.lesson img {
+    width: calc(73.9vw + 2.7px);
+}
