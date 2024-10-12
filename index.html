@@ -6,6 +6,7 @@
     <title>Landing</title>
     <link rel="stylesheet" href="./style.css" />
     <link href="https://fonts.cdnfonts.com/css/chava" rel="stylesheet">
+    <link rel="stylesheet" href="./splide-4.1.3/dist/css/splide.min.css">
   </head>
   <body>
     <section class="main_wrapper">
@@ -61,18 +62,18 @@
     <section>
         
         <div class="container">
-             <h4>10% скидка действует</h4>
+             <h2>10% скидка действует</h2>
         <div class="time">
              <div>
-            <h2>00</h2>
+            <h3>00</h3>
             <span>дней</span>
         </div>
         <div>
-            <h2>00</h2>
+            <h3>00</h3>
              <span>часов</span>
         </div>
         <div>
-            <h2>00</h2>
+            <h3>00</h3>
             <span>минут</span>
         </div>
         </div>
@@ -82,9 +83,9 @@
     <section class="speaker_wrapper">
       <h2>А кто преподает?</h2>
       <div class="main_speaker">
-        <img src="./img/pic_Roman-Ickov (1).png" alt="">
-        <div class="info-speaker">
-            <div>
+        <img src="./img/pic_Roman-Ickov (1).png" alt="" class="Roman-Ickov">
+        <div>
+            <div class="info-speaker">
               <h3>Юрий Каграманян</h3>
               <p>Практикующий преподаватель с опытом работы в сфере веб программирования</p>
             </div>
@@ -158,23 +159,95 @@
 <div class="lesson">
   <p>Урок №6: CSS [Intermediate]</p>
   <img src="./img/line_06.png" alt="">
-</div>
-         
-           
-          
-          
-          
-        </div>
+     </div>
+ </div>
 
         <button class="program">Получить полную программу курса</button>
       </div>
       
     </section>
-     <section>
-      <div>
-        <img src="./img/image 1772 (2).png" alt="">
+     <section class="diplom">
+      <div class="container_diplom">
+        <h2 class="title">диплом об окончании курса</h2>
+       <img src="./img/image 1772 (2).png" alt="Description" class="image">
+        <p class="paragraph">Он дополнит твое портфолио и выгодно выделит тебя на собеседовании в компанию мечты</p>
+      </div>
+      
+      
+     
+     </section>
+     <section class="dizainer">
+      <div class="info-dizainer" >
+         <h2>Сколько может зарабатывать Веб-Верстальщик?</h2>
+      <p>По данным сайта hh.uz большие компании готовы платить начинающим Верстальщикам от 300$. Тебе лишь нужно набираться опыта и твой доход будет расти с каждым разом . А мы готовы тебе помочь в этом!</p>
+      </div>
+     
+      <div class="dizainer_sale" >
+        <img src="./img/pic_hh.svg" alt="" class="img_dizainer">
+      </div>
+     </section>
+     <section class="less">
+      <h2>Кроме этого тебя ждут:</h2>
+      <div class="pro_sale">
+        <img src="./img/pic_student-box.png" alt="" class="students-box">
+        <div class="sale_blocks">
+          <span class="sale_block">150$ от наших партнёров</span>
+          <span class="sale_block">Компьютер для каждого студента со всеми необходимыми программами</span>
+          <span class="sale_block">Набор студента - приветственное письмо с ссылкой на закрытую группу, канцелярские принадлежности, стикеры и партнерские промо-коды</span>
+        </div>
+      </div>
+     </section>
+     <section class="review_peaple"> 
+      <h2>Отзывы наших студентов</h2>
+      <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="review">
+                <img src="./img/icon_youtube.svg" alt="youtube" class="socials">                    
+                <p class="comment"> Я пришел в Техникум чтобы сменить профессию на front-end разработчика и окончательно расстаться с предыдущим местом работы. Пробуйте себя во всем, ничего не бойтесь и у вас всё получится! </p>
+                <div class="review_2">
+                  <img src="./img/image 1766.jpg" alt="" class="peaple">
+                  <span>Руслан Мухутдинов</span>
+                </div>
+               </div>
+            </li>
+            <li class="splide__slide">
+              <div class="review">
+                <img src="./img/icon_youtube.svg" alt="youtube" class="socials">
+                     
+                <p class="comment">Я выбрал курс веб-верстальщика, потому что мне это нравится и это круто. После окончания курса, за хорошую учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я не жалею что выбрал эту сферу!</p>
+                <div>
+                  <img src="./img/image 1765 (1).jpg" alt="" class="peaple">
+                  <span>Юлдашев Искандер</span>
+                </div>
+               </div>
+            </li>
+            <li class="splide__slide">
+              <div class="review">
+                <img src="./img/icon_youtube.svg" alt="youtube" class="socials">
+                     
+                <p class="comment">Я увидел что Техникум всех приглашает на бесплатную лекцию по программированию. Меня это заинтересовало, после лекции я понял, что это хороший старт для карьеры. После курса я планирую дальше развиваться и двигаться вперед в этой сфере.</p>
+                <div class="review">
+                  <img src="./img/Frame 258.png" alt="" class="peaple">
+                  <span>Махмудов Джохонгир</span>
+                </div>
+               </div>
+            </li>
+          </ul>
+        </div>
       </div>
      </section>
     <script src="./script.js"></script>
+    <script src="./splide-4.1.3/dist/js/splide.min.js"></script>
+    <script >
+      var splide = new Splide( '.splide', {
+  type   : 'loop',
+  perPage:3,
+  gap:30,
+} );
+
+splide.mount();
+    </script>
   </body>
 </html>
